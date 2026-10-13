@@ -1,3 +1,5 @@
+<img src="icons/icon-128.png" alt="ChatGPT Voice Hotkeys icon" width="76" height="76">
+
 # ChatGPT Voice Hotkeys
 
 A lightweight **Chrome/Chromium extension** for controlling ChatGPT's built-in voice dictation with customizable keyboard shortcuts. Works in Chrome, Edge, Brave and other compatible Chromium browsers.
@@ -32,3 +34,5 @@ The extension clicks the controls already present in ChatGPT's web interface. It
 - This is an independent, unofficial project and is not affiliated with or endorsed by OpenAI.
 
 **Version:** 0.1.0
+
+[Author on GitHub](https://github.com/canyrtcn)

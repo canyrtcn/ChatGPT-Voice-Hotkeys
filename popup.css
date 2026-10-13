@@ -23,4 +23,8 @@ section { background: #1a1c1f; border: 1px solid #303236; border-radius: 14px; o
 .footer { display: flex; justify-content: space-between; align-items: center; gap: 8px; border-top: 1px solid #25282b; margin-top: 16px; padding-top: 14px; }
 .reset { color: #cfd4d4; background: transparent; border: none; padding: 3px 0; cursor: pointer; font-size: 11.5px; text-decoration: underline; text-underline-offset: 3px; }
 .reset:hover { color: white; }
-.footer span { font-size: 10px; color: #858a91; text-align: right; }
+.footer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.focus-hint { font-size: 10px; color: #858a91; text-align: right; }
+.github-link { display: inline-flex; align-items: center; gap: 5px; color: #b7c2d4; font-size: 10.5px; text-decoration: none; border-radius: 5px; }
+.github-link:hover, .github-link:focus-visible { color: #fff; text-decoration: underline; outline-offset: 3px; }
+.github-link svg { flex-shrink: 0; }
