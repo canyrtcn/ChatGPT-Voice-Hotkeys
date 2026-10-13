@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Voice Hotkeys",
+  "short_name": "Voice Hotkeys",
+  "description": "Use customizable keyboard shortcuts to start, stop and send ChatGPT voice dictation.",
+  "version": "0.1.0",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "ChatGPT Voice Hotkeys — Shortcut Settings",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "shortcuts.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ChatGPT Voice Hotkeys</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img class="logo" src="icons/icon-48.png" alt="" width="39" height="39">
+      <div>
+        <h1>Voice Hotkeys</h1>
+        <p>Keyboard shortcuts for ChatGPT dictation</p>
+      </div>
+      <span class="version">v0.1.0</span>
+    </header>
+    <section aria-label="Keyboard shortcuts">
+      <div class="shortcut-row">
+        <div class="meta"><strong>Start / stop recording</strong><small>Toggle recording with one shortcut</small></div>
+        <button type="button" class="hotkey" id="toggle" aria-label="Change start/stop shortcut">Alt + Z</button>
+      </div>
+      <div class="shortcut-row">
+        <div class="meta"><strong>Send message</strong><small>Presses the blue send button</small></div>
+        <button type="button" class="hotkey" id="send" aria-label="Change send shortcut">Alt + X</button>
+      </div>
+    </section>
+    <p id="message" class="status" role="status" aria-live="polite">Click a shortcut to change it.</p>
+    <div class="footer">
+      <button type="button" id="reset" class="reset">Reset shortcuts</button>
+      <span>When the ChatGPT tab is focused</span>
+    </div>
+  </main>
+  <script src="shortcuts.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
