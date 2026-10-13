@@ -30,6 +30,7 @@ The extension clicks the controls already present in ChatGPT's web interface. It
 
 - This extension controls **dictation**, not ChatGPT's separate real-time Voice Mode.
 - A ChatGPT interface update may require an extension update.
+- After installing or updating the extension, refresh any ChatGPT tabs that were already open.
 - `Alt + Z` can conflict with NVIDIA Overlay; change the shortcut in the extension popup if needed.
 - This is an independent, unofficial project and is not affiliated with or endorsed by OpenAI.
 
