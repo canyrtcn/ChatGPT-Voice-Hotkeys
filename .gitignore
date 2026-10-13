@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Local build artifacts and release archives
+node_modules/
+dist/
+build/
+*.zip
+*.crx
+*.pem
+*.key
+
+# Local environment files and logs
+.env
+.env.*
+*.log
