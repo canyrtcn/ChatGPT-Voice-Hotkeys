@@ -2,7 +2,7 @@
 
 # ChatGPT Voice Hotkeys
 
-A lightweight **Chrome/Chromium extension** for controlling ChatGPT's built-in voice dictation with customizable keyboard shortcuts. Works in Chrome, Edge, Brave and other compatible Chromium browsers.
+A lightweight **Chrome/Chromium extension** for controlling ChatGPT's built-in voice dictation with customizable keyboard shortcuts. Works in Chrome, Edge, Brave, and other compatible Chromium browsers.
 
 ## Shortcuts
 
